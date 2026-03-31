@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-renderer/
+out/
+*.exe
+*.dmg
+*.AppImage
+*.snap
+.DS_Store
+Thumbs.db

@@ -1,0 +1,38 @@
+[
+  {
+    "role": "user",
+    "content": "build me an app that takes images of any type and converts them to any desired type",
+    "timestamp": 1774990374403
+  },
+  {
+    "role": "assistant",
+    "content": "Building that now...",
+    "tools": [
+      {
+        "name": "Bash",
+        "detail": ""
+      },
+      {
+        "name": "Read",
+        "detail": ""
+      },
+      {
+        "name": "Read",
+        "detail": ""
+      },
+      {
+        "name": "Read",
+        "detail": ""
+      },
+      {
+        "name": "Read",
+        "detail": ""
+      },
+      {
+        "name": "Read",
+        "detail": ""
+      }
+    ],
+    "timestamp": 1774990384068
+  }
+]

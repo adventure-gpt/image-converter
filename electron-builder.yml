@@ -1,0 +1,49 @@
+appId: com.brobb.image-converter
+productName: "Image Converter"
+directories:
+  output: dist
+  buildResources: resources
+
+files:
+  - "src/main/**/*"
+  - "src/preload/**/*"
+  - "dist-renderer/**/*"
+  - "package.json"
+
+extraMetadata:
+  main: src/main/index.js
+
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  icon: resources/icon.ico
+
+nsis:
+  oneClick: true
+  perMachine: false
+  allowToChangeInstallationDirectory: false
+  deleteAppDataOnUninstall: false
+
+mac:
+  target:
+    - target: dmg
+      arch:
+        - x64
+        - arm64
+  icon: resources/icon.icns
+  category: public.app-category.photography
+
+linux:
+  target:
+    - target: AppImage
+      arch:
+        - x64
+  icon: resources/icon.png
+  category: Graphics
+
+publish:
+  provider: github
+  owner: "brobbins1995"
+  repo: "image-converter"

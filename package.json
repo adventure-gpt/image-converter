@@ -1,0 +1,30 @@
+{
+  "name": "image-converter",
+  "version": "1.0.0",
+  "description": "Convert images between any format — JPEG, PNG, WebP, AVIF, TIFF, GIF, and more",
+  "main": "src/main/index.js",
+  "scripts": {
+    "dev": "electron .",
+    "build:renderer": "vite build",
+    "build": "npm run build:renderer && electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "electron-store": "^8.2.0",
+    "electron-updater": "^6.3.0",
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.400.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "tailwindcss": "^4.0.0",
+    "vite": "^6.0.0"
+  }
+}
