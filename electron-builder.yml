@@ -10,6 +10,11 @@ files:
   - "dist-renderer/**/*"
   - "package.json"
 
+asarUnpack:
+  - "node_modules/sharp/**/*"
+  - "node_modules/@img/**/*"
+  - "node_modules/better-sqlite3/**/*"
+
 extraMetadata:
   main: src/main/index.js
 
