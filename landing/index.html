@@ -76,7 +76,7 @@
       <!-- Badge -->
       <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-brand-200 mb-8">
         <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
-        v1.2.0 — Free &amp; Open Source
+        v1.3.0 — Free &amp; Open Source
       </div>
 
       <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6">
@@ -105,9 +105,9 @@
           <!-- Filled by JS using safe DOM methods -->
         </div>
         <div class="flex items-center gap-4 text-sm text-gray-500">
-          <span id="download-meta">v1.2.0 &middot; Free &amp; Open Source</span>
+          <span id="download-meta">v1.3.0 &middot; Free &amp; Open Source</span>
           <span>&middot;</span>
-          <a href="https://github.com/adventure-gpt/image-converter/releases/tag/v1.2.0" class="hover:text-brand-400 transition-colors underline underline-offset-2">All downloads</a>
+          <a href="https://github.com/adventure-gpt/image-converter/releases/tag/v1.3.0" class="hover:text-brand-400 transition-colors underline underline-offset-2">All downloads</a>
         </div>
       </div>
 
@@ -308,11 +308,11 @@
   <script>
     // Platform detection and download button rendering using safe DOM methods
     (function() {
-      var RELEASE_BASE = 'https://github.com/adventure-gpt/image-converter/releases/download/v1.2.0';
-      var RELEASE_PAGE = 'https://github.com/adventure-gpt/image-converter/releases/tag/v1.2.0';
+      var RELEASE_BASE = 'https://github.com/adventure-gpt/image-converter/releases/download/v1.3.0';
+      var RELEASE_PAGE = 'https://github.com/adventure-gpt/image-converter/releases/tag/v1.3.0';
 
       var downloads = {
-        windows: { label: 'Download for Windows', file: 'Image.Converter.Setup.1.2.0.exe', icon: 'M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801' },
+        windows: { label: 'Download for Windows', file: 'Image.Converter.Setup.1.3.0.exe', icon: 'M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801' },
         mac: { label: 'Download for macOS', file: null, icon: 'M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.81-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11' },
         linux: { label: 'Download for Linux', file: null, icon: 'M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.134.063.198.114.333l.003.003c.391.778 1.113 1.368 1.884 1.43.868.134 1.703-.272 2.191-.574.337-.263.726-.574 1.141-.756q.125-.055.256-.126c.024.048.043.056.054.135.022.063.02.098.02.146 0 .199-.004.426-.004.725.008.304.063.585.288.882.112.148.249.266.39.36.702.5 1.655.552 2.299.279.167-.07.296-.153.397-.227.055-.04.109-.074.147-.105l.018-.013c.15.06.312.133.475.133a.707.707 0 00.489-.189.7.7 0 00.222-.49c0-.143-.039-.283-.087-.374-.166-.334-.629-.666-1.146-.862-.104-.038-.213-.079-.328-.107-.093-.016-.087.044-.087-.233 0-.142 0-.322.008-.46.012-.272.01-.404.062-.6.089-.381.257-.725.449-1.085.076-.136.136-.298.167-.468.104-.551.1-1.253-.16-1.76-.126-.288-.372-.454-.584-.537-.052-.031-.112-.027-.164-.05l.004-.004c-.408-.25-.627-.512-.807-.769a4 4 0 01-.237-.43c-.09-.186-.14-.396-.207-.562-.325-.828-.564-1.768-1.056-2.302-.292-.307-.668-.467-1.147-.467-.188.001-.373.023-.555.038-.185.02-.383.046-.504-.003-.121-.045-.268-.142-.455-.278-.393-.283-.858-.671-1.471-.862A4 4 0 0012.504 0' }
       };

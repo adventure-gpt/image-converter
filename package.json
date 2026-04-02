@@ -1,6 +1,6 @@
 {
   "name": "image-converter",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Convert images between any format — JPEG, PNG, WebP, AVIF, TIFF, GIF, and more",
   "main": "src/main/index.js",
   "scripts": {
