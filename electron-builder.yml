@@ -50,5 +50,5 @@ linux:
 
 publish:
   provider: github
-  owner: "brobbins1995"
+  owner: "adventure-gpt"
   repo: "image-converter"
